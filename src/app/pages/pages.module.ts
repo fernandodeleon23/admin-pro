@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PartsModule } from '../parts/parts.module';
+import { FormsModule } from '@angular/forms';
 
 // Paginas
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -25,7 +26,8 @@ import { AppRoutingModule } from '../app-routing.module';
   imports: [
     AppRoutingModule,
     CommonModule,
-    PartsModule
+    PartsModule,
+    FormsModule
   ]
 })
 export class PagesModule { }
