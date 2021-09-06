@@ -12,15 +12,19 @@ export class SidebarService {
       submenu: [
         {
           'title': 'Main',
-          'url': '/'
+          'url': 'index'
+        },
+        {
+          'title': 'Grafica',
+          'url': 'grafica'
         },
         {
           'title': 'Progressbar',
           'url': 'progress'
         },
         {
-          'title': 'Grafica',
-          'url': 'grafica'
+          'title': 'Promesas',
+          'url': 'promesas'
         }
       ]
     }

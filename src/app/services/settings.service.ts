@@ -9,8 +9,6 @@ export class SettingsService {
 
   constructor() {
 
-    console.log( 'Settings service' )
-
     this.getCurrentTheme()
   }
 
